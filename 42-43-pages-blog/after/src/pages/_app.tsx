@@ -6,7 +6,8 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <nav className="top-nav">
-        <div className="nav-text-large">My App</div>
+      <Link className="nav-text-large" href="/">Experimental Site</Link>
+      
         <ul className="nav-list">
           <li>
             <Link href="/posts">Posts</Link>
